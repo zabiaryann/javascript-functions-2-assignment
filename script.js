@@ -4,12 +4,6 @@
 
 //Write filterByGenre(books, genre) below here:
 
-function filterByGenre(books, genre) {
-    let filteredBooks = books.filter((book) => {
-        return book.genre === genre;
-    })
-    return filteredBooks;
-}
 
 const books = [
   {
