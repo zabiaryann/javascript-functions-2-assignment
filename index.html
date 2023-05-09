@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="styles/style.css" />
+    <title>Book Finder</title>
+  </head>
+  <body>
+    <h1>Book Finder</h1>
+    <p class="subtitle">Select a genre below to see our filtered library!</p>
+    <form>
+      <label for="genre">Genre:</label>
+      <select id="genre" name="genre" required>
+        <option value="">Select a genre</option>
+        <option value="mystery">Mystery</option>
+        <option value="romance">Romance</option>
+        <option value="sci-fi">Science Fiction</option>
+      </select>
+      <br />
+      <div class="searchDiv">
+        <input type="submit" value="Search" />
+      </div>
+    </form>
+    <div id="results"></div>
+    <script src="script.js"></script>
+    <script src="util/teacherJS.js"></script>
+  </body>
+</html>
