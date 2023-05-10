@@ -1,6 +1,7 @@
 //Below you will find a (lengthy) array of objects pertaining to popular books
-//Your job is to write the function 'filterByGenre()' that takes this array of books and a genre (as a string) as a parameter
-//and then uses the .filter() property return a filtered array of books with that genre.
+// /Your job is to write the function `filterByGenre()` that:
+// - Takes this array of books and a genre (as a string) as parameters
+// - Then uses the .filter() method to return a filtered array of books containing that genre.
 
 //Write filterByGenre(books, genre) below here:
 
