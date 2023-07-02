@@ -4,7 +4,9 @@
 // - Then uses the .filter() method to return a filtered array of books containing that genre.
 
 //Write filterByGenre(books, genre) below here:
-
+function filterByGenre(books, genre) {
+  return books.filter(book => book.genre === genre);
+}
 
 const books = [
   {
@@ -63,5 +65,6 @@ const books = [
     genre: "romance",
   },
 ];
-
+// /Your job is to write the function `filterByGenre()` that:
+let 
 
